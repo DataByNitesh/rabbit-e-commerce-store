@@ -6,6 +6,7 @@ import {
   fetchProductDetails,
   updateProduct,
 } from "@/redux/slices/productSlice";
+import { fetchAdminProducts } from "@/redux/slices/adminProductSlice";
 
 const EditProductPage = () => {
   const dispatch = useDispatch();
@@ -79,7 +80,13 @@ const EditProductPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     await dispatch(updateProduct({ id, productData })).unwrap();
-    navigate("/admin/products");
+    // Refresh the admin product list so the table updates immediately
+    await dispatch(fetchAdminProducts()).unwrap();
+
+    // Slight delay to allow Redux state to propagate before navigating
+    setTimeout(() => {
+      navigate("/admin/products");
+    }, 300);
   };
 
   if (loading) return <p>Loading...</p>;
