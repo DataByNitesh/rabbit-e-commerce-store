@@ -37,22 +37,22 @@ const Footer = () => {
           <h3 className="text-lg text-gray-800 mb-4">Shop</h3>
           <ul className="space-y-2 text-gray-600">
             <li>
-              <Link to="/collections/all?gender=Men&category=Top Wear" className="hover:text-gray-500 transition-colors">
+              <Link to="/collections/all?gender=Men&category=Top Wear" onClick={() => window.scrollTo(0, 0)} className="hover:text-gray-500 transition-colors">
                 Men's top Wear
               </Link>
             </li>
             <li>
-              <Link to="/collections/all?gender=Women&category=Top Wear" className="hover:text-gray-500 transition-colors">
+              <Link to="/collections/all?gender=Women&category=Top Wear" onClick={() => window.scrollTo(0, 0)} className="hover:text-gray-500 transition-colors">
                 Women's top Wear
               </Link>
             </li>
             <li>
-              <Link to="/collections/all?gender=Men&category=Bottom Wear" className="hover:text-gray-500 transition-colors">
+              <Link to="/collections/all?gender=Men&category=Bottom Wear" onClick={() => window.scrollTo(0, 0)} className="hover:text-gray-500 transition-colors">
                 Men's Bottom Wear
               </Link>
             </li>
             <li>
-              <Link to="/collections/all?gender=Women&category=Bottom Wear" className="hover:text-gray-500 transition-colors">
+              <Link to="/collections/all?gender=Women&category=Bottom Wear" onClick={() => window.scrollTo(0, 0)} className="hover:text-gray-500 transition-colors">
                 Women's Bottom Wear
               </Link>
             </li>
