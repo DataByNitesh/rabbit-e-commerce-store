@@ -76,9 +76,9 @@ const EditProductPage = () => {
     }
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    dispatch(updateProduct({ id, productData }));
+    await dispatch(updateProduct({ id, productData })).unwrap();
     navigate("/admin/products");
   };
 
