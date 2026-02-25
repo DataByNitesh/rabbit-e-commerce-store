@@ -87,9 +87,9 @@ const OrderManagement = () => {
                     <td className="px-6 py-5 whitespace-nowrap">
                       <div className="flex items-center">
                         <div className="h-8 w-8 rounded-full bg-gray-200 flex items-center justify-center text-gray-600 font-bold text-xs mr-3">
-                          {order.user.name.charAt(0).toUpperCase()}
+                          {order.user?.name ? order.user.name.charAt(0).toUpperCase() : "?"}
                         </div>
-                        <div className="text-sm font-medium text-gray-900">{order.user.name}</div>
+                        <div className="text-sm font-medium text-gray-900">{order.user?.name || "Deleted User"}</div>
                       </div>
                     </td>
                     <td className="px-6 py-5 whitespace-nowrap">
@@ -112,8 +112,8 @@ const OrderManagement = () => {
                         onClick={() => handleStatusChange(order._id, "Delivered")}
                         disabled={order.status === "Delivered" || order.status === "Cancelled"}
                         className={`px-4 py-2 rounded-lg text-xs font-bold transition-all duration-200 ${order.status === "Delivered" || order.status === "Cancelled"
-                            ? "bg-gray-100 text-gray-400 cursor-not-allowed"
-                            : "bg-black text-white hover:bg-gray-800 shadow-sm hover:shadow-md"
+                          ? "bg-gray-100 text-gray-400 cursor-not-allowed"
+                          : "bg-black text-white hover:bg-gray-800 shadow-sm hover:shadow-md"
                           }`}
                       >
                         {order.status === "Delivered" ? "Completed" : "Mark Delivered"}

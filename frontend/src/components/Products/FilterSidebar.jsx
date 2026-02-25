@@ -13,10 +13,10 @@ const FilterSidebar = () => {
     material: [],
     brand: [],
     minPrice: 0,
-    maxPrice: 100,
+    maxPrice: 10000,
   });
 
-  const [priceRange, setPriceRange] = useState([0, 100]);
+  const [priceRange, setPriceRange] = useState([0, 10000]);
 
   const categories = ["Top Wear", "Bottom Wear"];
 
@@ -68,10 +68,10 @@ const FilterSidebar = () => {
       material: params.material ? params.material.split(",") : [],
       brand: params.brand ? params.brand.split(",") : [],
       minPrice: params.minPrice || 0,
-      maxPrice: params.maxPrice || 100,
+      maxPrice: params.maxPrice || 10000,
     });
 
-    setPriceRange([0, params.maxPrice || 100]);
+    setPriceRange([0, params.maxPrice || 10000]);
   }, [searchParams]);
 
   const handleFilterChange = (e) => {
@@ -85,7 +85,11 @@ const FilterSidebar = () => {
         newFilters[name] = newFilters[name].filter((item) => item !== value);
       }
     } else {
-      newFilters[name] = value;
+      if (newFilters[name] === value) {
+        newFilters[name] = "";
+      } else {
+        newFilters[name] = value;
+      }
     }
 
     setFilters(newFilters);
@@ -168,9 +172,8 @@ const FilterSidebar = () => {
               name="color"
               value={color}
               onClick={handleFilterChange}
-              className={`w-8 h-8 rounded-full border ${
-                filters.color === color ? "ring-2 ring-blue-500" : ""
-              }`}
+              className={`w-8 h-8 rounded-full border ${filters.color === color ? "ring-2 ring-blue-500" : ""
+                }`}
               style={{ backgroundColor: color.toLowerCase() }}
             />
           ))}
@@ -235,7 +238,7 @@ const FilterSidebar = () => {
         <input
           type="range"
           min={0}
-          max={100}
+          max={10000}
           value={priceRange[1]}
           onChange={handlePriceChange}
           className="w-full"

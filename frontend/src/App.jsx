@@ -31,7 +31,18 @@ const App = () => {
       <BrowserRouter
         future={{ v7_startTransition: true, v7_relativeSplatPath: true }}
       >
-        <Toaster position="top-right" />
+        <Toaster
+          position="top-center"
+          toastOptions={{
+            duration: 3000,
+            className: "rounded-xl border border-gray-800 bg-gray-900 text-gray-100 shadow-xl",
+            style: {
+              padding: "16px 20px",
+              fontSize: "15px",
+              fontWeight: "500"
+            }
+          }}
+        />
         <Routes>
           <Route path="/" element={<UserLayout />}>
             <Route index element={<Home />} />

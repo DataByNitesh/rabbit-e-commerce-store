@@ -4,6 +4,7 @@ import { RiTwitterXLine } from "react-icons/ri";
 import { TbBrandMeta } from "react-icons/tb";
 import { FiPhoneCall } from "react-icons/fi"
 import { Link } from "react-router-dom";
+import { toast } from "sonner";
 
 const Footer = () => {
   return (
@@ -17,7 +18,14 @@ const Footer = () => {
           <p className="font-medium text-sm text-gray-600 mb-6">
             Sign up and get 10% off your first order
           </p>
-          <form className="flex">
+          <form
+            className="flex"
+            onSubmit={(e) => {
+              e.preventDefault();
+              toast.success("Hey! You have successfully subscribed to the newsletter. You will get updates via email.");
+              e.target.reset();
+            }}
+          >
             <input
               type="email"
               placeholder="Enter your email"
@@ -62,24 +70,36 @@ const Footer = () => {
           <h3 className="text-lg text-gray-800 mb-4">Support</h3>
           <ul className="space-y-2 text-gray-600">
             <li>
-              <Link to="#" className="hover:text-gray-500 transition-colors">
+              <button
+                onClick={() => toast.info("Sorry for the inconvenience, the Contact Us page is currently in building.")}
+                className="hover:text-gray-500 transition-colors"
+              >
                 Contact Us
-              </Link>
+              </button>
             </li>
             <li>
-              <Link to="#" className="hover:text-gray-500 transition-colors">
+              <button
+                onClick={() => toast.info("Sorry for the inconvenience, the About Us page is currently in building.")}
+                className="hover:text-gray-500 transition-colors"
+              >
                 About Us
-              </Link>
+              </button>
             </li>
             <li>
-              <Link to="#" className="hover:text-gray-500 transition-colors">
+              <button
+                onClick={() => toast.info("Sorry for the inconvenience, the FAQs page is currently in building.")}
+                className="hover:text-gray-500 transition-colors"
+              >
                 FAQs
-              </Link>
+              </button>
             </li>
             <li>
-              <Link to="#" className="hover:text-gray-500 transition-colors">
+              <button
+                onClick={() => toast.info("Sorry for the inconvenience, the Features page is currently in building.")}
+                className="hover:text-gray-500 transition-colors"
+              >
                 Features
-              </Link>
+              </button>
             </li>
           </ul>
         </div>
@@ -95,7 +115,7 @@ const Footer = () => {
               <TbBrandMeta className="h-5 w-5" />
             </a>
             <a
-              href="https://www.facebook.com"
+              href="https://www.instagram.com"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-300"
@@ -103,7 +123,7 @@ const Footer = () => {
               <IoLogoInstagram className="h-5 w-5" />
             </a>
             <a
-              href="https://www.facebook.com"
+              href="https://www.x.com"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-300"
@@ -114,7 +134,12 @@ const Footer = () => {
           <p className="text-gray-500">Call Us</p>
           <p>
             <FiPhoneCall className="inline-block mr-2" />
-            0123-456-789
+            <button
+              onClick={() => toast.info("Sorry, support team isn't ready yet!")}
+              className="hover:text-gray-500 transition-colors"
+            >
+              0123-456-789
+            </button>
           </p>
         </div>
       </div>

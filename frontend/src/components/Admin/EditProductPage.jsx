@@ -7,6 +7,7 @@ import {
   updateProduct,
 } from "@/redux/slices/productSlice";
 import { fetchAdminProducts } from "@/redux/slices/adminProductSlice";
+import { toast } from "sonner";
 
 const EditProductPage = () => {
   const dispatch = useDispatch();
@@ -77,16 +78,49 @@ const EditProductPage = () => {
     }
   };
 
+  const handleImageDelete = async (imageUrl) => {
+    if (!window.confirm("Are you sure you want to delete this image?")) return;
+
+    try {
+      // Extract public ID from Cloudinary URL
+      // Example URL: https://res.cloudinary.com/demo/image/upload/v12345/uploads/abcde.jpg
+      const urlParts = imageUrl.split('/');
+      const filenameRegex = /v\d+\/(.*)\.[a-zA-Z]+$/;
+      const match = imageUrl.match(filenameRegex);
+
+      if (match && match[1]) {
+        const publicId = match[1];
+
+        await axios.delete(
+          `${import.meta.env.VITE_BACKEND_URL}/api/upload/${encodeURIComponent(publicId)}`,
+        );
+
+        // Remove the image from the local state
+        setProductData((prevData) => ({
+          ...prevData,
+          images: prevData.images.filter((img) => img.url !== imageUrl),
+        }));
+      } else {
+        console.error("Could not extract public ID from URL");
+      }
+
+    } catch (error) {
+      console.error("Error deleting image:", error);
+    }
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await dispatch(updateProduct({ id, productData })).unwrap();
-    // Refresh the admin product list so the table updates immediately
-    await dispatch(fetchAdminProducts()).unwrap();
-
-    // Slight delay to allow Redux state to propagate before navigating
-    setTimeout(() => {
+    try {
+      await dispatch(updateProduct({ id, productData })).unwrap();
+      toast.success("Product updated successfully!");
+      // Refresh the admin product list so the table updates immediately
+      await dispatch(fetchAdminProducts()).unwrap();
       navigate("/admin/products");
-    }, 300);
+    } catch (err) {
+      console.error("Failed to update product:", err);
+      toast.error(err || "Failed to update product");
+    }
   };
 
   if (loading) return <p>Loading...</p>;
@@ -201,14 +235,21 @@ const EditProductPage = () => {
           <label className="block font-semibold mb-2">Upload Image</label>
           <input type="file" onChange={handleImageUpload} />
           {Uploading && <p>Uploading image...</p>}
-          <div className="flex gap-4 mt-4">
+          <div className="flex gap-4 mt-4 flex-wrap">
             {productData.images.map((image, index) => (
-              <div key={index}>
+              <div key={index} className="relative group">
                 <img
                   src={image.url}
                   alt={image.altText || "Product Image"}
                   className="w-20 h-20 object-cover rounded-md shadow-md"
                 />
+                <button
+                  type="button"
+                  onClick={() => handleImageDelete(image.url)}
+                  className="absolute -top-2 -right-2 bg-red-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs opacity-0 group-hover:opacity-100 transition-opacity"
+                >
+                  ✕
+                </button>
               </div>
             ))}
           </div>

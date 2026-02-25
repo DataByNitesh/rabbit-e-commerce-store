@@ -17,8 +17,8 @@ const CollectionPage = () => {
   const sidebarRef = useRef(null);
   const [isSidebarOpen, setisSidebarOpen] = useState(false);
 
-  useEffect(()=> {
-    dispatch(fetchProductsByFilters({collection, ...queryParams}))
+  useEffect(() => {
+    dispatch(fetchProductsByFilters({ collection, ...queryParams }))
   }, [dispatch, collection, searchParams])
 
   const toggleSidebar = () => {
@@ -49,9 +49,8 @@ const CollectionPage = () => {
 
       <div
         ref={sidebarRef}
-        className={`${
-          isSidebarOpen ? "translate-x-0" : "-translate-x-full"
-        } fixed inset-y-0 z-50 left-0 w-64 bg-white overflow-y-auto transition-transform duration-300 lg:static lg:translate-x-0`}
+        className={`${isSidebarOpen ? "translate-x-0" : "-translate-x-full"
+          } fixed inset-y-0 z-50 left-0 w-64 bg-white overflow-y-auto transition-transform duration-300 lg:static lg:translate-x-0 lg:max-h-[calc(100vh-200px)] lg:overflow-y-auto lg:sticky lg:top-20`}
       >
         <FilterSidebar />
       </div>
@@ -59,7 +58,7 @@ const CollectionPage = () => {
       <div className="flex-grow p-4">
         <h2 className="text-2xl uppercase mb-4">All Collection</h2>
         <SortOptions />
-        <ProductGrid products={products} loading={loading} error={error}/>
+        <ProductGrid products={products} loading={loading} error={error} />
       </div>
     </div>
   );

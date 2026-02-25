@@ -175,11 +175,15 @@ router.get("/", async (req, res) => {
     }
 
     if (material) {
-      query.material = { $in: material.split(",") };
+      query.material = {
+        $in: material.split(",").map((m) => new RegExp(m, "i"))
+      };
     }
 
     if (brand) {
-      query.brand = { $in: brand.split(",") };
+      query.brand = {
+        $in: brand.split(",").map((b) => new RegExp(b, "i"))
+      };
     }
 
     if (size) {
@@ -223,6 +227,8 @@ router.get("/", async (req, res) => {
           break;
       }
     }
+
+    console.log("Constructed MongoDB Query:", JSON.stringify(query, null, 2));
 
     const products = await Product.find(query)
       .sort(sort)

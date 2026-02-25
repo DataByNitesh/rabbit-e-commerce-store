@@ -59,6 +59,40 @@ const CreateProductPage = () => {
         }
     };
 
+    const handleImageDelete = async (imageUrl) => {
+        if (!window.confirm("Are you sure you want to delete this image?")) return;
+
+        try {
+            // Extract public ID from Cloudinary URL
+            const urlParts = imageUrl.split('/');
+            const filenameRegex = /v\d+\/(.*)\.[a-zA-Z]+$/;
+            const match = imageUrl.match(filenameRegex);
+
+            if (match && match[1]) {
+                const publicId = match[1];
+
+                await axios.delete(
+                    `${import.meta.env.VITE_BACKEND_URL}/api/upload/${encodeURIComponent(publicId)}`,
+                );
+
+                // Remove the image from the local state
+                setProductData((prevData) => ({
+                    ...prevData,
+                    images: prevData.images.filter((img) => img.url !== imageUrl),
+                }));
+
+                toast.success("Image deleted successfully");
+            } else {
+                console.error("Could not extract public ID from URL");
+                toast.error("Failed to delete image: invalid URL");
+            }
+
+        } catch (error) {
+            console.error("Error deleting image:", error);
+            toast.error("Failed to delete image");
+        }
+    };
+
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
@@ -258,6 +292,13 @@ const CreateProductPage = () => {
                                     alt={image.altText || "Product Image"}
                                     className="w-24 h-24 object-cover rounded-md shadow-sm border border-gray-200"
                                 />
+                                <button
+                                    type="button"
+                                    onClick={() => handleImageDelete(image.url)}
+                                    className="absolute -top-2 -right-2 bg-red-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs opacity-0 group-hover:opacity-100 transition-opacity"
+                                >
+                                    ✕
+                                </button>
                             </div>
                         ))}
                         {productData.images.length === 0 && (

@@ -50,11 +50,11 @@ const products = [
         altText: "Slim-Fit Stretch Shirt Black",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771319582/Slim-Fit_Stretch_Shirt_navy_blue_dxr2mg.webp",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771927885/Slim-Fit_Stretch_Shirt_navy_blue_ug1lqd.avif",
         altText: "Slim-Fit Stretch Shirt Navy Blue",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771319582/Slim-Fit_Stretch_Shirt_burgandy_il0hyw.webp",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771927885/Slim-Fit_Stretch_Shirt_burgandy_nxsscr.avif",
         altText: "Slim-Fit Stretch Shirt burgandy",
       },
     ],
@@ -78,11 +78,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771319763/Casual_Denim_Shirt_light_blue_gyzeve.webp",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771928141/Casual_Denim_Shirt_light_blue_byxjrw.webp",
         altText: "Casual Denim Shirt light blue",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771319763/Casual_Denim_Shirt_dark_wash_bvvzjj.webp",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771928141/Casual_Denim_Shirt_dark_wash_rr6gku.webp",
         altText: "Casual Denim Shirt Dark wash",
       },
     ],
@@ -134,11 +134,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771320163/Slim-Fit_Easy-Iron_Shirt_white_ea2jt7.webp",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771928343/Slim-Fit_Easy-Iron_Shirt_white_nittd2.avif",
         altText: "Slim-Fit Easy-Iron Shirt white",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771320162/Slim-Fit_Easy-Iron_Shirt_gray_er1dr7.webp",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771928348/Slim-Fit_Easy-Iron_Shirt_gray_za6f4g.avif",
         altText: "Slim-Fit Easy-Iron Shirt Gray",
       },
     ],
@@ -162,15 +162,15 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771320427/Polo_T-Shirt_with_Ribbed_Collar_white_u8vgmw.webp",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771928518/Polo_T-Shirt_with_Ribbed_Collar_white_v6sxyt.webp",
         altText: "Polo T-Shirt White",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771320427/Polo_T-Shirt_with_Ribbed_Collar_navy_blue_yx93nb.webp",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771928517/Polo_T-Shirt_with_Ribbed_Collar_navy_cidich.jpg",
         altText: "Polo T-Shirt Navy",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771320427/Polo_T-Shirt_with_Ribbed_Collar_red_wr0brk.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771928517/Polo_T-Shirt_with_Ribbed_Collar_red_ilxwhx.avif",
         altText: "Polo T-Shirt Red",
       },
     ],
@@ -194,11 +194,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771320608/Oversized_Graphic_T-Shirt_black_swckvv.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771928686/Oversized_Graphic_T-Shirt_black_zhfzbn.avif",
         altText: "Oversized Graphic T-Shirt black",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771320608/Oversized_Graphic_T-Shirt_gray_e9hrl2.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771928684/Oversized_Graphic_T-Shirt_gray_eiaifj.jpg",
         altText: "Oversized Graphic T-Shirt Gray",
       },
     ],
@@ -222,15 +222,15 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771320785/Regular-Fit_Henley_Shirt_heather_gray_efjmtw.webp",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771928931/Regular-Fit_Henley_Shirt_hearther_gray_inftci.webp",
         altText: "Regular-Fit Henley Shirt Heather gray",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771320787/Regular-Fit_Henley_Shirt_olive_h10v1a.webp",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771928929/Regular-Fit_Henley_Shirt_olive_gray_ptrnwl.webp",
         altText: "Regular-Fit Henley Shirt olive",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771320785/Regular-Fit_Henley_Shirt_black_x9mm84.webp",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771928929/Regular-Fit_Henley_Shirt_black_j4rlfd.jpg",
         altText: "Regular-Fit Henley Shirt black",
       },
     ],
@@ -254,15 +254,15 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771321087/Long-Sleeve_Thermal_Tee_charcoal_fjb3mg.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771929153/long_sleeve_Charcoal_q3qsdr.jpg",
         altText: "Long-Sleeve Thermaln Tee Charcoal",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771321088/Long-Sleeve_Thermal_Tee_dark_green_p015re.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771929152/long_sleeve_Dark_Green_nmezjz.jpg",
         altText: "Long-Sleeve Thermaln Tee Dark Green",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771321089/Long-Sleeve_Thermal_Tee_navy_obiwfz.webp",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771929152/long-_sleeve_Navy_p96int.webp",
         altText: "Long-Sleeve Thermaln Tee Navy",
       },
     ],
@@ -286,15 +286,15 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771321351/V-Neck_Classic_T-Shirt_white_mkp3ng.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771929372/V-Neck_Classic_T-Shirt_white_xct9op.webp",
         altText: "V-Neck Classic T-Shirt White",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771321349/V-Neck_Classic_T-Shirt_black_qwqwbr.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771929372/V-Neck_Classic_T-Shirt_black_yygzfj.webp",
         altText: "V-Neck Classic T-Shirt Black",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771321350/V-Neck_Classic_T-Shirt_navy_rjuew6.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771929372/V-Neck_Classic_T-Shirt_navy_rvdmwi.webp",
         altText: "V-Neck Classic T-Shirt Navy",
       },
     ],
@@ -318,15 +318,15 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771321574/Slim_Fit_Joggers_black_dia5ah.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771929868/Slim_Fit_Joggers_black_g0rn74.webp",
         altText: "Slim Fit Joggers Black",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771321575/Slim_Fit_Joggers_gray_vqcajg.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771929868/Slim_Fit_Joggers_gray_wjfflc.webp",
         altText: "Slim Fit Joggers Gray",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771321575/Slim_Fit_Joggers_navy_ce3n8k.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771929868/Slim_Fit_Joggers_navy_sqkwe7.webp",
         altText: "Slim Fit Joggers Navy",
       },
     ],
@@ -350,11 +350,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771321738/Cargo_Joggers_olive_lkelx9.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771930025/Cargo_Joggers_olive_xmzght.webp",
         altText: "Cargo Joggers olive",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771321738/Cargo_Joggers_black_lrhsa3.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771930025/Cargo_Joggers_black_vdy2yg.jpg",
         altText: "Cargo Joggers black",
       },
     ],
@@ -378,15 +378,15 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771321900/Tapered_Sweatpants_gray_ppuc0s.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771930181/Tapered_Sweatpants_gray_gmglkw.webp",
         altText: "Tapered Sweatpants Gray",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771321900/Tapered_Sweatpants_charcoal_xrrwjp.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771930180/Tapered_Sweatpants_charcoal_yweozz.webp",
         altText: "Tapered Sweatpants Charcoal",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771321898/Tapered_Sweatpants_blue_iaglg7.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771930180/Tapered_Sweatpants_blue_nkfqaa.webp",
         altText: "Tapered Sweatpants Blue",
       },
     ],
@@ -410,11 +410,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771322052/Denim_Jeans_dark_blue_xgbgdd.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771930316/Denim_Jeans_dark_blue_hh5xcy.avif",
         altText: "Denim Jeans Dark Blue",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771322053/Denim_Jeans_light_blue_mu8nxv.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771930313/Denim_Jeans_light_blue_tqvgkj.webp",
         altText: "Denim Jeans Light Blue",
       },
     ],
@@ -438,15 +438,15 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771322291/Chino_Pants_beige_gypvqw.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771943098/Chino_Pants_beige_sjhqwg.webp",
         altText: "Chino Pants Beige",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771322292/Chino_Pants_navy_owukft.webp",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771943098/Chino_Pants_navy_pcvysv.webp",
         altText: "Chino Pants Navy",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771322291/Chino_Pants_black_malaqs.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771943097/Chino_Pants_black_exaxzd.webp",
         altText: "Chino Pants Black",
       },
     ],
@@ -470,15 +470,15 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771322547/Track_pants_black_jk9en6.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771943281/Track_Pants_black_llkdaj.webp",
         altText: "Track Pants Black",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771322549/Track_pants_red_hfz8yv.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771943291/Track_Pants_red_pzjzvm.webp",
         altText: "Track Pants Red",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771322548/Track_pants_Blue_vrwtnc.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771943282/Track_Pants_blue_jychiy.avif",
         altText: "Track Pants Blue",
       },
     ],
@@ -502,11 +502,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771322731/Slim_Fit_Trouser_Gray_ixaaqd.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771943407/Slim_Fit_Trousers_gray_srqq6u.jpg",
         altText: "Slim Fit Trousers Gray",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771322730/Slim_fit_trouser_blackj_dbe27w.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771943407/Slim_Fit_Trousers_black_kyf2zd.webp",
         altText: "Slim Fit Trousers Black",
       },
     ],
@@ -530,15 +530,15 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771322928/Cargo_pants_olive_kzfawc.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771943645/Cargo_Pants_olive_ctzjkn.webp",
         altText: "Cargo Pants olive",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771322926/cargo_pants_Brown_vxtcj4.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771943645/Cargo_Pants_brown_wdgxac.webp",
         altText: "Cargo Pants Brown",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771322925/cargo_pants_Black_ncavuj.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771943647/Cargo_Pants_black_wjf4db.webp",
         altText: "Cargo Pants Black",
       },
     ],
@@ -562,15 +562,15 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771323137/Relaxed_fit_sweatpants_gray_wlnatz.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771943821/Relaxed_Fit_Sweatpants_gray_fwal7f.webp",
         altText: "Relaxed Fit Sweatpants gray",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771323135/Relaxed_fit_sweatpants_black_dtjvtj.webp",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771943821/Relaxed_Fit_Sweatpants_black_bhxhd9.webp",
         altText: "Relaxed Fit Sweatpants black",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771323139/Relaxed_fit_sweatpants_navy_c10knp.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771943824/Relaxed_Fit_Sweatpants_navy_zk0qsu.jpg",
         altText: "Relaxed Fit Sweatpants Navy",
       },
     ],
@@ -594,11 +594,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771323298/Formal_Dress_Pants_black_sn6sdr.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771943951/Formal_Dress_Pants_black_dqjf15.webp",
         altText: "Formal Dress Pants Black",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771323299/Formal_Dress_Pants_navy_lqxulo.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771943951/Formal_Dress_Pants_navy_toew1v.webp",
         altText: "Formal Dress Pants Navy",
       },
     ],
@@ -622,15 +622,15 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771323456/High-Waist_Skinny_Jeans_dark_blue_d4ikxz.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771944114/High-Waist_Skinny_Jeans_dark_blue_l81w9m.webp",
         altText: "High-Waist Skinny Jeans dark blue",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771323455/High-Waist_Skinny_Jeans_black_i6apck.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771944114/High-Waist_Skinny_Jeans_black_qs1gds.webp",
         altText: "High-Waist Skinny Jeans black",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771323458/High-Waist_Skinny_Jeans_light_blue_gt6epi.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771944114/High-Waist_Skinny_Jeans_light_blue_zxego4.webp",
         altText: "High-Waist Skinny Jeans light blue",
       },
     ],
@@ -654,15 +654,15 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771323717/Wide-Leg_Trousers_beige_pnk7sn.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771944287/Wide-Leg_Trousers_beige_fl3rki.jpg",
         altText: "Wide-Leg Trousers beige",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771323719/Wide-Leg_Trousers_black_u3yvn2.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771944286/Wide-Leg_Trousers_black_dggt78.webp",
         altText: "Wide-Leg Trousers Black",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771323721/Wide-Leg_Trousers_white_basgov.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771944285/Wide-Leg_Trousers_white_ojgmro.webp",
         altText: "Wide-Leg Trousers white",
       },
     ],
@@ -686,15 +686,15 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771323918/Stretch_Leggings_navy_s4acq4.webp",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771944443/Stretch_Leggings_navy_bphf0u.webp",
         altText: "Stretch Leggings Navy",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771323896/Stretch_Leggings_black_icjofi.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771944442/Stretch_Leggings_black_jjmf60.webp",
         altText: "Stretch Leggings Black",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771323897/Stretch_Leggings_gray_yezem3.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771944442/Stretch_Leggings_gray_zzedih.webp",
         altText: "Stretch Leggings Gray",
       },
     ],
@@ -718,15 +718,15 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771324161/Pleated_Midi_Skirt_pink_vqbzhh.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771944645/Pleated_Midi_Skirt_pink_qjmqhy.avif",
         altText: "Pleated Midi Skirt Pink",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771324161/Pleated_Midi_Skirt_navy_h17slc.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771944638/Pleated_Midi_Skirt_navy_s56fja.webp",
         altText: "Pleated Midi Skirt Navy",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771324160/Pleated_Midi_Skirt_black_cy0bhl.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771944638/Pleated_Midi_Skirt_black_x2jfoa.webp",
         altText: "Pleated Midi Skirt Black",
       },
     ],
@@ -750,15 +750,15 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771324368/Flared_Palazzo_Pants_white_uch91f.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771944884/Flared_Palazzo_Pants_white_wwaz1f.jpg",
         altText: "Flared Palazzo Pants White",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771324367/Flared_Palazzo_Pants_beige_ba8klo.webp",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771944883/Flared_Palazzo_Pants_beige_cgn9ld.webp",
         altText: "Flared Palazzo Pants beige",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771324367/Flared_Palazzo_Pants_light_blue_bwimm2.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771944885/Flared_Palazzo_Pants_light_bkue_ljshlq.webp",
         altText: "Flared Palazzo Pants Light Blue",
       },
     ],
@@ -782,15 +782,15 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771324548/High-Rise_Joggers_black_ohukvr.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771945062/High-Rise_Joggers_black_wkbdai.webp",
         altText: "High-Rise Joggers Black",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771324549/High-Rise_Joggers_gray_oyyps1.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771945067/High-Rise_Joggers_white_vlyy9d.jpg",
         altText: "High-Rise Joggers Gray",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771324549/High-Rise_Joggers_pink_ijyqlz.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771945059/High-Rise_Joggers_pink_kif9op.webp",
         altText: "High-Rise Joggers Pink",
       },
     ],
@@ -814,15 +814,15 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771324755/Paperbag_Waist_Shorts_white_ulqzr7.avif",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771945333/Paperbag_Waist_Shorts_white_dnfr7a.avif",
         altText: "Paperbag Waist Shorts White",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771324754/Paperbag_Waist_Shorts_khaki_dm632p.webp",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771945334/Paperbag_Waist_Shorts_khaki_o2xxkb.jpg",
         altText: "Paperbag Waist Shorts khaki",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771324755/Paperbag_Waist_Shorts_blue_dw9j7g.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771945334/Paperbag_Waist_Shorts_blue_mzgx4k.avif",
         altText: "Paperbag Waist Shorts Blue",
       },
     ],
@@ -846,15 +846,15 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771324927/Stretch_Denim_Shorts_blue_qj5anz.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771945521/Stretch_Denim_Shorts_blue_bcgtzy.jpg",
         altText: "Stretch Denim Shorts blue",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771324927/Stretch_Denim_Shorts_black_ubham6.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771945517/Stretch_Denim_Shorts_black_yn8sf1.webp",
         altText: "Stretch Denim Shorts black",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771324927/Stretch_Denim_Shorts_white_ox0izr.webp",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771945522/Stretch_Denim_Shorts_white_pduudg.webp",
         altText: "Stretch Denim Shorts White",
       },
     ],
@@ -878,15 +878,15 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771325095/Culottes_black_hts1cb.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771945682/Culottes_black_nbld9c.webp",
         altText: "Culottes Front Black",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771325095/Culottes_white_z1at9q.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771945684/Culottes_white_av6nvy.webp",
         altText: "Culottes Front White",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771325095/Culottes_olive_lnkcau.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771945680/Culottes_olive_t0dvbl.webp",
         altText: "Culottes Front Olive",
       },
     ],
@@ -910,15 +910,15 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771325231/Classic_Pleated_Trousers_navy_k0evit.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771945879/Classic_Pleated_Trousers_navy_tvx9mb.avif",
         altText: "Classic Pleated Trousers Navy",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771325230/Classic_Pleated_Trousers_black_lyjlro.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771945872/Classic_Pleated_Trousers_black_bnqzfo.webp",
         altText: "Classic Pleated Trousers Black",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771325230/Classic_Pleated_Trousers_gray_ta5q6h.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771945873/Classic_Pleated_Trousers_gray_i5zq46.webp",
         altText: "Classic Pleated Trousers Gray",
       },
     ],
@@ -942,11 +942,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771325359/Knitted_Cropped_Top_beige_w2w0ex.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771946014/Knitted_Cropped_Top_beige_wkag7l.jpg",
         altText: "Knitted Cropped Top Beige",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771325359/Knitted_Cropped_Top_white_dkjwcn.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771946017/Knitted_Cropped_Top_white_yrc5sm.webp",
         altText: "Knitted Cropped Top White",
       },
     ],
@@ -970,11 +970,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771325463/Boho_Floral_Blouse_white_k7wpmw.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771946124/Boho_Floral_Blouse_white_v10ggp.jpg",
         altText: "Boho Floral Blouse white",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771325462/Boho_Floral_Blouse_pink_hzrvo0.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771946121/Boho_Floral_Blouse_pink_lzigs4.webp",
         altText: "Boho Floral Blouse pink",
       },
     ],
@@ -998,15 +998,15 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771325599/Casual_T-Shirt_black_pbxq3i.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771946341/Casual_T-Shirt_black_qxv1do.webp",
         altText: "Casual T-Shirt Black",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771325600/Casual_T-Shirt_white_pj2rli.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771946341/Casual_T-Shirt_white_ymvs0y.webp",
         altText: "Casual T-Shirt White",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771325599/Casual_T-Shirt_gray_accxd4.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771946341/Casual_T-Shirt_gray_liximv.webp",
         altText: "Casual T-Shirt Gray",
       },
     ],
@@ -1030,15 +1030,15 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771325739/Off-Shoulder_Top_red_lxosso.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771946559/Off-Shoulder_Top_red_ubknpe.jpg",
         altText: "Off-Shoulder Top red",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771325739/Off-Shoulder_Top_white_u56a8d.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771946533/Off-Shoulder_Top_white_fh6u1r.webp",
         altText: "Off-Shoulder Top White",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771325739/Off-Shoulder_Top_blue_wrpjjy.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771946532/Off-Shoulder_Top_blue_jh2pdg.webp",
         altText: "Off-Shoulder Top Blue",
       },
     ],
@@ -1062,11 +1062,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771325871/Lace-Trimmed_Cami_Top_black_wik2nr.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771946709/Lace-Trimmed_Cami_Top_black_jnqg9h.webp",
         altText: "Lace-Trimmed Cami Top black",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771325871/Lace-Trimmed_Cami_Top_white_kyprqw.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771946706/Lace-Trimmed_Cami_Top_white_i4oogd.webp",
         altText: "Lace-Trimmed Cami Top White",
       },
     ],
@@ -1090,11 +1090,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771325995/Graphic_Print_Tee_white_skc7he.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771946901/Graphic_Print_Tee_white_g3r2ws.jpg",
         altText: "Graphic Print Tee white",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771325994/Graphic_Print_Tee_black_mgbudt.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771946906/Graphic_Print_Tee_black_seayby.webp",
         altText: "Graphic Print Tee black",
       },
     ],
@@ -1118,15 +1118,15 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771326135/Ribbed_Long-Sleeve_Top_gray_o0u1ye.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771947072/Ribbed_Long-Sleeve_Top_gray_eub2pd.webp",
         altText: "Ribbed Long-Sleeve Top gray",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771326136/Ribbed_Long-Sleeve_Top_pink_qlx6e4.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771947071/Ribbed_Long-Sleeve_Top_pink_xzvldv.avif",
         altText: "Ribbed Long-Sleeve Top pink",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771326135/Ribbed_Long-Sleeve_Top_brown_uuqhh4.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771947073/Ribbed_Long-Sleeve_Top_brown_adqfpt.webp",
         altText: "Ribbed Long-Sleeve Top brown",
       },
     ],
@@ -1150,15 +1150,15 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771326310/Ruffle-Sleeve_Blouse_white_p7wnet.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1772025422/Ruffle-Sleeve_Blouse_white_bp32kl.jpg",
         altText: "Ruffle-Sleeve Blouse white",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771326310/Ruffle-Sleeve_Blouse_navy_jwe5cf.webp",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1772025422/Ruffle-Sleeve_Blouse_navy_nhvih7.webp",
         altText: "Ruffle-Sleeve Blouse Navy",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771326310/Ruffle-Sleeve_Blouse_lavender_kvfrey.webp",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1772025422/Ruffle-Sleeve_Blouse_lavender_bwz4fg.webp",
         altText: "Ruffle-Sleeve Blouse Lavender",
       },
     ],
@@ -1182,15 +1182,15 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771326484/Classic_Button-Up_Shirt_white_j9iksp.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1772025663/Classic_Button-Up_Shirt_white_hsmtc1.webp",
         altText: "Classic Button-Up Shirt white",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771326483/Classic_Button-Up_Shirt_light_blue_jwvicb.webp",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1772025662/Classic_Button-Up_Shirt_ligth_blue_wjh8b7.webp",
         altText: "Classic Button-Up Shirt light blue",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771326482/Classic_Button-Up_Shirt_black_ovfxt9.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1772025663/Classic_Button-Up_Shirt_black_bbgxxj.jpg",
         altText: "Classic Button-Up Shirt black",
       },
     ],
@@ -1214,15 +1214,15 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771326722/V-Neck_Wrap_Top_red_bxvbts.webp",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1772025821/V-Neck_Wrap_Top_red_hbmimm.webp",
         altText: "V-Neck Wrap Top red",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771326721/V-Neck_Wrap_Top_black_qrmuub.webp",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1772025821/V-Neck_Wrap_Top_black_gd6ved.webp",
         altText: "V-Neck Wrap Top black",
       },
       {
-        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1771326725/V-Neck_Wrap_Top_white_ql5vcs.jpg",
+        url: "https://res.cloudinary.com/dbnm1w0n8/image/upload/v1772025821/V-Neck_Wrap_Top_white_ecsmqf.jpg",
         altText: "V-Neck Wrap Top white",
       },
     ],
