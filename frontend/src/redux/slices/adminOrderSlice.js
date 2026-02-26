@@ -15,7 +15,9 @@ export const fetchAllOrders = createAsyncThunk(
       );
       return response.data;
     } catch (error) {
-      return rejectWithValue(error.response.data);
+      return rejectWithValue(
+        error.response?.data?.message || (error.response?.status === 401 ? "Unauthorized: Please log in again" : "Failed to fetch orders")
+      );
     }
   },
 );
