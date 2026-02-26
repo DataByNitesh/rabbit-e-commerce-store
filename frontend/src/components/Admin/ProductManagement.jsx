@@ -66,27 +66,27 @@ const ProductManagement = () => {
               {Array.isArray(products) && products.length > 0 ? (
                 products.map((product) => (
                   <tr
-                    key={product._id}
+                    key={product?._id || Math.random()}
                     className="hover:bg-gray-50/50 transition-colors duration-200"
                   >
                     <td className="px-6 py-5 whitespace-nowrap">
-                      <div className="text-sm font-medium text-gray-900">{product.name}</div>
+                      <div className="text-sm font-medium text-gray-900">{product?.name || 'Unknown Product'}</div>
                     </td>
                     <td className="px-6 py-5 whitespace-nowrap">
-                      <div className="text-sm font-semibold text-gray-900">₹{product.price}</div>
+                      <div className="text-sm font-semibold text-gray-900">₹{product?.price || 0}</div>
                     </td>
                     <td className="px-6 py-5 whitespace-nowrap">
-                      <span className="bg-gray-100 text-gray-800 text-xs font-mono px-2 py-1 rounded inline-block border border-gray-200">{product.sku}</span>
+                      <span className="bg-gray-100 text-gray-800 text-xs font-mono px-2 py-1 rounded inline-block border border-gray-200">{product?.sku || 'N/A'}</span>
                     </td>
                     <td className="px-6 py-5 whitespace-nowrap text-sm font-medium flex gap-3">
                       <Link
-                        to={`/admin/products/${product._id}/edit`}
+                        to={`/admin/products/${product?._id}/edit`}
                         className="bg-blue-50 text-blue-600 px-3 py-1.5 rounded-md hover:bg-blue-100 transition-colors font-semibold shadow-sm"
                       >
                         Edit
                       </Link>
                       <button
-                        onClick={() => handleDelete(product._id)}
+                        onClick={() => product?._id && handleDelete(product._id)}
                         className="bg-red-50 text-red-600 px-3 py-1.5 rounded-md hover:bg-red-100 transition-colors font-semibold shadow-sm"
                       >
                         Delete
