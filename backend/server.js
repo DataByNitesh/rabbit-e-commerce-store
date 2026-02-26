@@ -26,7 +26,8 @@ app.use(express.urlencoded({ extended: true }));
 const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:5174",
-  "https://rabbit-e-commerce-wine.vercel.app"
+  "https://rabbit-e-commerce-wine.vercel.app",
+  "https://rabbit-e-commerc-ivsn0b9qa-nitzzs-projects.vercel.app"
 ];
 
 app.use(cors({
